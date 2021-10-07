@@ -6,21 +6,18 @@
   display: flex;
 }
 
-
-
-.work__box:not(:last-child) {
-  margin-right: 30px;
-}
-
 .work__box{
   position: relative;
-
+    &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
+
 .work__text{
-  position:absolute;
+position:absolute;
 width: 100%;
-  font-size: 14px;
-  font-weight: 700;
+font-size: 14px;
+font-weight: 700;
 line-height: 1.14;
 text-align: center;
 letter-spacing: 0.03em;
